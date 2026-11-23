@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amirali Saghlatoonnia | Python Backend Developer focused on Python, Django, APIs and databases." />
+  <meta property="og:title" content="Amirali Saghlatoonnia — Python Backend Developer" />
+  <meta property="og:description" content="Building reliable web applications with Python and Django." />
+  <meta property="og:image" content="images/profile.png" />
+  <meta property="og:type" content="website" />
+  <title>Amirali Saghlatoonnia — Python Backend Developer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234F8EF7'/%3E%3Ctext y='.9em' font-size='62' font-family='Arial' font-weight='700' fill='white' x='50%25' text-anchor='middle' dominant-baseline='hanging' dy='10'%3EAS%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <a class="nav-logo" href="#hero">AS</a>
+    <ul class="nav-links">
+      <li><a href="#about" data-i="nav_about">About</a></li>
+      <li><a href="#experience" data-i="nav_exp">Journey</a></li>
+      <li><a href="#skills" data-i="nav_skills">Skills</a></li>
+      <li><a href="#projects" data-i="nav_projects">Projects</a></li>
+      <li><a href="#contact" data-i="nav_contact">Contact</a></li>
+    </ul>
+    <div class="nav-controls">
+      <button class="icon-btn" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="icon-btn lang-btn" id="langToggle" title="Switch language">FA</button>
+      <button class="nav-toggle" id="navToggle" aria-label="menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow" data-i="hero_eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">Amirali<br /><span class="accent">Saghlatoonnia</span></h1>
+      <p class="hero-role"><span class="typewriter" id="typewriter"></span><span class="cursor">|</span></p>
+      <p class="hero-bio" data-i="hero_bio">Python Backend Developer focused on building reliable web applications with Python and Django.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" data-i="hero_cta1">View Project</a>
+        <a href="#contact" class="btn btn-ghost" data-i="hero_cta2">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true"><div class="deco-ring deco-ring--1"></div><div class="deco-ring deco-ring--2"></div><div class="deco-ring deco-ring--3"></div></div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <div class="container about-inner">
+      <div class="about-photo-wrap">
+        <img src="main_prof.jpg" alt="Amirali Saghlatoonnia" class="about-photo" />
+        <div class="about-photo-ring"></div>
+      </div>
+      <div class="about-text">
+        <h2 class="section-title" data-i="about_title">About Me</h2>
+        <p data-i="about_p1">I'm Amirali Saghlatoonnia, a Computer Engineering student and Python developer interested in backend engineering. I enjoy solving problems and turning ideas into practical software.</p>
+        <p data-i="about_p2">I'm currently developing my skills in Python, Django, databases, APIs, and software development practices. My goal is to become a capable backend engineer and build reliable, maintainable applications.</p>
+        <a href="mailto:a.saghlatoonnia.1387@gmail.com" class="btn btn-primary" style="margin-top:24px">a.saghlatoonnia.1387@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section exp-section" id="experience">
+    <div class="container">
+      <h2 class="section-title" data-i="exp_title">Learning & Experience</h2>
+      <p class="section-sub" data-i="exp_sub">My development journey</p>
+      <div class="timeline" id="timeline">
+        <div class="timeline-item" data-delay="0">
+          <div class="tl-dot"></div><div class="tl-content">
+            <span class="tl-date">2025 — 2026</span>
+            <h3 data-i="exp1_title">Python Programming</h3>
+            <p data-i="exp1_desc">Built a foundation in Python through practical exercises and completed Harvard's CS50P Introduction to Programming with Python course.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-delay="100">
+          <div class="tl-dot"></div><div class="tl-content">
+            <span class="tl-date">2026 — Present</span>
+            <h3 data-i="exp2_title">Backend Development</h3>
+            <p data-i="exp2_desc">Focusing on Django, databases, APIs, application structure, and writing clean, maintainable backend code.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-delay="200">
+          <div class="tl-dot"></div><div class="tl-content">
+            <span class="tl-date">2026</span>
+            <h3 data-i="exp3_title">Backend Internship</h3>
+            <p data-i="exp3_desc">Taking the next step toward professional software development through a backend internship opportunity and practical team experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <h2 class="section-title" data-i="skills_title">Skills</h2>
+      <p class="section-sub" data-i="skills_sub">Technologies I'm learning and working with</p>
+      <div class="skills-grid">
+        <div class="skill-card" data-delay="0">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2c-5 0-5 2-5 5v3h6v1H5c-2 0-3 2-3 5s1 5 4 5h2v-4c0-2 1-3 3-3h5c2 0 3-2 3-4V7c0-3-2-5-7-5z" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="5" r="1" fill="currentColor"/></svg></div>
+          <h3>Python</h3><p data-i="sk_python">Programming fundamentals, OOP, problem solving, and scripting.</p>
+          <div class="skill-bar"><div class="skill-fill" data-pct="75"></div></div>
+        </div>
+        <div class="skill-card" data-delay="80">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16M4 12h16M4 19h16M8 3v4m8 3v4m-8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>Django</h3><p data-i="sk_django">Learning Django fundamentals, MVT architecture, models, and ORM.</p>
+          <div class="skill-bar"><div class="skill-fill" data-pct="55"></div></div>
+        </div>
+        <div class="skill-card" data-delay="160">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="5" rx="8" ry="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>Databases</h3><p data-i="sk_database">Learning relational database concepts, SQL, and data modeling.</p>
+          <div class="skill-bar"><div class="skill-fill" data-pct="45"></div></div>
+        </div>
+        <div class="skill-card" data-delay="240">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4l2 14.5L12 21l6-2.5L20 4H4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 8h8M8.5 12h7" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          <h3>HTML & CSS</h3><p data-i="sk_web">Building structured pages, responsive layouts, and personal websites.</p>
+          <div class="skill-bar"><div class="skill-fill" data-pct="65"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <h2 class="section-title" data-i="proj_title">Projects</h2>
+      <p class="section-sub" data-i="proj_sub">A selection of my work</p>
+      <div class="projects-grid" id="projects-grid">
+        <article class="project-card featured" data-delay="0">
+          <img class="project-thumb" src="portfolio-preview.png" alt="Dark blue preview artwork for the Amirali personal portfolio website" loading="lazy" />
+          <div class="project-body">
+            <div class="project-badge" data-i="proj_badge">Featured</div>
+            <h3 class="project-title" data-i="proj_card_title">Amirali Personal Portfolio</h3>
+            <p class="project-desc" data-i="proj_desc">A responsive personal portfolio website introducing my background, backend development journey, skills, and contact information. Includes Persian and English languages and dark/light themes.</p>
+            <div class="project-meta">
+              <span class="repo-lang"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
+              <span class="repo-lang"><span class="lang-dot" style="background:#563d7c"></span>CSS</span>
+              <span class="repo-lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
+            </div>
+            <a href="#hero" class="project-link" data-i="proj_link">You're viewing this website →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title" data-i="contact_title">Let's Connect</h2>
+      <p class="contact-text" data-i="contact_sub">I'm open to connecting with developers, learning from others, and discussing Python and backend development.</p>
+      <div class="contact-links">
+        <a href="mailto:a.saghlatoonnia.1387@gmail.com" class="contact-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>Email</a>
+        <a href="https://github.com/Amiraliii1387" target="_blank" rel="noopener" class="contact-pill"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.296 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.021C22 6.484 17.522 2 12 2z"/></svg>GitHub</a>
+        <a href="https://t.me/AMiRo20_08" target="_blank" rel="noopener noreferrer" class="contact-pill" aria-label="Contact via Telegram"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.7 4.3 18.5 19.4c-.24 1.07-.87 1.33-1.76.83l-4.86-3.58-2.35 2.26c-.26.26-.48.48-.98.48l.35-4.95 9.02-8.15c.39-.35-.08-.55-.6-.2L6.17 13.2l-4.78-1.5c-1.04-.33-1.06-1.04.22-1.55L20.3 3.03c.86-.32 1.61.21 1.4 1.27Z"/></svg>Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer-trigger"><p>Built by <strong>Amirali Saghlatoonnia</strong> — 2026</p></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg></button>
+  <script src="script.js"></script>
+</body>
+</html>
